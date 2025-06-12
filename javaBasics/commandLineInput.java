@@ -1,16 +1,14 @@
-
-import java.util.Scanner;
-
-class oddEven {
+class commandLineInput {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int n = Integer.parseInt(args[0]);
         if (n % 2 == 0) {
             System.out.println("Even Number");
         } else {
             System.out.println("Odd number");
         }
-
-        sc.close();
     }
 }
+
+// Execution Steps :
+// javac commandLineInput.java
+// java commandLineInput 5

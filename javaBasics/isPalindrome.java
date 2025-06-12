@@ -14,10 +14,10 @@ class isPalindrome {
             n = n / 10;
         }
         if (x == m) {
-            System.out.println(m + " is a Palindrome No.");         
+            System.out.println(m + " is a Palindrome No.");
         } else {
             System.out.println(m + " is Not a Palindrome No.");
         }
-       
+        sc.close();
     }
 }

@@ -13,5 +13,6 @@ class factorial {
             m--;
         }
         System.out.println("Factorials of " + n + " = " + f);
+        sc.close();
     }
 }
